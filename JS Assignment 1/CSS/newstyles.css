@@ -1,0 +1,28 @@
+.properties {
+
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    width: 500px;
+    margin: 10px;
+    cursor: pointer;
+    background-color:white;
+}
+
+#red{
+    color:red;
+}
+
+#blue{
+    color:blue;
+}
+
+#green{
+    color:green;
+}
+
+div {
+    border-width: 10px;
+    border-color: blue;
+}
