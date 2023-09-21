@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/reg.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <hr>
+
+        <form action="" id="frmRegistration">
+
+            <!-- for name  -->
+            <div id="form-group">
+                <label for="fullName">FullName:</label>
+                <br>
+                <input type="text" id="txtFullName" name="txtFullName" class="form-control">
+                <span id="fullNameError" class="error"></span>
+            </div>
+
+            <!-- for email  -->
+            <div id="form-group">
+                <label for="fullName">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" class="form-control">
+                <span id="emailError" class="error"></span>
+            </div>
+
+            <!-- for phone number  -->
+            <div id="form-group">
+                <label for="phoneNumber">Phone(Enter only 10 digit number)</label>
+                <br>
+                <input type="number" id="numPhone" name="numPhone" class="form-control">
+                <span id="phoneError" class="error"></span>
+            </div>
+
+            <!-- for password -->
+            <div id="form-group">
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="pass" name="pass" class="form-control">
+                <span id="passError" class="error"></span>
+            </div>
+
+            <!-- for confirm  password -->
+            <div id="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <br>
+                <input type="password" id="Confirmpass" name="Confirmpass" class="form-control">
+                <span id="ConfirmPassError" class="error"></span>
+
+            </div>
+            <!-- button  -->
+
+            <div>
+                <button type="submit" id="submit" class="btn btn-primary form-control sub">Register</button>
+            </div>
+
+
+            <script src="/JS/Registeration.js"></script>
+        </form>
+    </div>
+
+</body>
+
+</html>
